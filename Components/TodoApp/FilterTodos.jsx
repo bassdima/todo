@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import {FILTER_CATEGORIES} from "../../constants";
-import styles from "../../styles/FilterTodos.module.css";
+import styles from "../../styles/todoAppStyles/FilterTodos.module.css";
 
 const FilterTodos = ({ onFilterClick, filterValue }) => {
     const selectFilterClickHandler = (event) => {

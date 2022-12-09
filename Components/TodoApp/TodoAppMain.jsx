@@ -3,7 +3,7 @@ import filteringTodos from "../../helpers";
 import InputTodoApp from "./InputTodoApp";
 import ItemTodoApp from "./ItemTodoApp";
 import FooterTodoApp from "./FooterTodoApp";
-import styles from "../../styles/TodoAppMain.module.css";
+import styles from "../../styles/todoAppStyles/TodoAppMain.module.css";
 
 const TodoAppMain = () => {
     const [todos, setTodos] = useState([]);

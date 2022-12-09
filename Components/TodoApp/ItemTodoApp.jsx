@@ -2,7 +2,7 @@ import { useState } from "react"
 import EmptyCircle from "next/image"
 import CircleCheck from "next/image"
 import Cross from "../../public/cross.svg"
-import styles from "../../styles/ItemTodoApp.module.css"
+import styles from "../../styles/todoAppStyles/ItemTodoApp.module.css"
 
 const ItemTodoApp = ({ todo, isCompleted, removeTask, changeTask }) => {
     const [isShown, setIsShown] = useState(false);

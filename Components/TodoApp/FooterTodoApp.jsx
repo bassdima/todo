@@ -1,5 +1,5 @@
 import FilterTodos from "./FilterTodos";
-import styles from "../../styles/FooterTodoApp.module.css";
+import styles from "../../styles/todoAppStyles/FooterTodoApp.module.css";
 
 const FooterTodoApp = ({ todosList, onFilterClick, removeComplited, filterValue }) => {
     return (

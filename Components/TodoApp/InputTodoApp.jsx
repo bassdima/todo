@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../../styles/InputTodoApp.module.css";
+import styles from "../../styles/todoAppStyles/InputTodoApp.module.css";
 
 const InputTodoApp = ({ addTask, todosList }) => {
     const [enteredUserText, setEnteredUserText] = useState('')
