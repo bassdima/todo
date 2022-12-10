@@ -1,20 +1,19 @@
 .radio-btn {
-    display: none;
-  } 
-  
-  .filter-btn{
-    z-index: 1;
-    text-align: center;
-    padding: 3px 7px;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    margin-right: 5px;
-  }
-  
-  .filter-btn-checked {
-    border: 1px solid rgba(175, 47, 47, 40%);
-  }
-  
-  .filter-btn:hover {
-    border: 1px solid rgba(175, 47, 47, 20%);
-  }
+  display: none;
+}
+
+.filter-btn {
+  z-index: 1;
+  padding: 3px 7px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.filter-btn-checked {
+  border: 1px solid rgba(175, 47, 47, 40%);
+}
+
+.filter-btn:hover {
+  border: 1px solid rgba(175, 47, 47, 20%);
+}

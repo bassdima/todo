@@ -1,7 +1,7 @@
 import FilterTodos from "./FilterTodos";
 import styles from "../../styles/todoAppStyles/FooterTodoApp.module.css";
 
-const FooterTodoApp = ({ todosList, onFilterClick, removeComplited, filterValue }) => {
+const FooterTodoApp = ({ todosList, setState, onFilterClick, removeComplited, filterValue }) => {
     return (
         <footer className={styles["todo-item__footer"]}>
             <p className={styles["todo-count"]}>{`${todosList.filter((item) => !item.complete).length} item left`}</p>
@@ -10,9 +10,9 @@ const FooterTodoApp = ({ todosList, onFilterClick, removeComplited, filterValue 
                 filterValue={filterValue}
             />
             {(todosList.filter((item) => item.complete).length > 0) ?
-                <p onClick={removeComplited}
-                className={styles["clear-completed"]}>
-                Clear completed</p>
+                <p onClick={() => removeComplited(todosList, setState)}
+                    className={styles["clear-completed"]}>
+                    Clear completed</p>
                 : ''
             }
 

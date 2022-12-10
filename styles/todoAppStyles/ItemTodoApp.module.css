@@ -1,12 +1,11 @@
 .todo-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: white;
-    padding: 15px;
-    border-bottom: 1px solid #ededed;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
-  }
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-bottom: 1px solid #ededed;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+}
 
 .circle {
   display: flex;
@@ -21,27 +20,35 @@
   margin-right: auto;
 }
 
+.edit-form {
+  padding: 16px 16px 16px 16px;
+  font-size: 24px;
+  box-shadow: inset 0 -1px 5px 0 rgb(0 0 0 / 20%);
+  width: 400px;
+  border: 1px solid #999;
+}
+
 .complete-task {
   text-decoration: line-through;
   color: rgb(0 0 0 / 25%);
 }
 
-.cross{
+.cross {
   color: rgba(175, 47, 47, 40%);
 }
 
 .cross:hover {
-    color: rgba(175, 47, 47, 100%);
+  color: rgba(175, 47, 47, 100%);
 }
 
-  .item-checkbox {
-    display: none;
-  }
+.item-checkbox {
+  display: none;
+}
 
-  .item-delete {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    width: 7%;
-  }
+.item-delete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 7%;
+}

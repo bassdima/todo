@@ -6,7 +6,7 @@ import FooterInformBar from "../InformBar/FooterInformBar";
 import styles from "../../styles/informBarStyles/InformBarMain.module.css";
 
 const InformationBarMain = () => {
-    return(
+    return (
         <div className={styles["information-bar"]}>
             <HeaderInformBar />
             <HorizontalRule />

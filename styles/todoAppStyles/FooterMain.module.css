@@ -1,0 +1,11 @@
+.todo-app__info {
+  color: #bfbfbf;
+  font-size: 10px;
+  text-shadow: 0 1px 0 rgb(255 255 255 / 50%);
+  margin-top: 60px;
+}
+
+.todo-app__info__link {
+  color: inherit;
+  text-decoration: none;
+}
